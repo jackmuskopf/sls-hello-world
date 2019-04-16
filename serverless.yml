@@ -57,6 +57,7 @@ provider:
 functions:
   hello:
     handler: handler.hello
+    role: "arn:aws:iam::364413002348:role/terraform-20190416184219149900000001"
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
